@@ -40,7 +40,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'Mentor Helper'
-copyright = """2017, Songtao Hus"""
+copyright = """2017, Songtao Hu"""
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -185,7 +185,7 @@ latex_documents = [
     ('index',
      'mentor_helper.tex',
      'Mentor Helper Documentation',
-     """Songtao Hus""", 'manual'),
+     """Songtao Hu""", 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -215,7 +215,7 @@ latex_documents = [
 # (source start file, name, description, authors, manual section).
 man_pages = [
     ('index', 'mentor_helper', 'Mentor Helper Documentation',
-     ["""Songtao Hus"""], 1)
+     ["""Songtao Hu"""], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -229,7 +229,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
     ('index', 'mentor_helper', 'Mentor Helper Documentation',
-     """Songtao Hus""", 'Mentor Helper',
+     """Songtao Hu""", 'Mentor Helper',
      """Collect questions and answers on forum of UdaCity to help mentor/learner understand knowledge.""", 'Miscellaneous'),
 ]
 
