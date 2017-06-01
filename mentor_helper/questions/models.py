@@ -7,6 +7,12 @@ class SkillPoint(models.Model):
     def __str__(self):
         return self.name
 
+class Category(models.Model):
+    name = models.CharField(max_length=200)
+
+    def __str__(self):
+        return self.name
+
 class Question(models.Model):
     question_summary = models.CharField(max_length=200)
     question_detail = models.TextField()
