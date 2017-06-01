@@ -18,3 +18,6 @@ class Question(models.Model):
 class Answer(models.Model):
     question = models.ForeignKey(Question)
     answer_detail = models.TextField()
+
+    def __str__(self):
+        return self.answer_detail[:200]
