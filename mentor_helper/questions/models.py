@@ -10,9 +10,7 @@ class SkillPoint(models.Model):
 class Question(models.Model):
     question_summary = models.CharField(max_length=200)
     question_detail = models.TextField()
-    
-
-
+    question_url = models.URLField(blank=True)
 
     def __str__(self):
         return self.question_summary
