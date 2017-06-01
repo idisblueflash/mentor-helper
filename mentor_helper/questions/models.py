@@ -25,6 +25,9 @@ class Question(models.Model):
 class Answer(models.Model):
     question = models.ForeignKey(Question)
     answer_detail = models.TextField()
+    answer_solved = models.BooleanField(default=False)
+    is_mentor = models.BooleanField(default=True)
+    tags = models.TextField(blank=True, default='deep learning')
 
     skill_points = models.ManyToManyField(SkillPoint)
     def __str__(self):
