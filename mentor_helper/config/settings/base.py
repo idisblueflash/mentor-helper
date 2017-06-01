@@ -56,6 +56,7 @@ LOCAL_APPS = [
     # custom users app
     'mentor_helper.users.apps.UsersConfig',
     # Your stuff: custom apps go here
+    'questions',
 ]
 
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
