@@ -1,0 +1,5 @@
+[run]
+include = mentor_helper/*
+omit = *migrations*, *tests*
+plugins =
+    django_coverage_plugin
